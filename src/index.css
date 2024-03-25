@@ -1,0 +1,256 @@
+/* Navbar */
+.navbar{
+  background-color: #2C3E50 !important;
+}
+
+.bg-main{
+  background-color: #1ABC9C;
+  border-radius: 5px;
+}
+/* Navbar */
+
+/* Home */
+.home{
+  background-color: #1ABC9C;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.home img{
+  width: 250px;
+  padding-bottom: 40px;
+  padding-top: 100px;
+}
+
+.home .style{
+  position: relative;
+}
+
+.home .style::after{
+  position: absolute;
+  content: '';
+  left: 220px;
+  top: 10px;
+  height: 4px;
+  width: 20%;
+  background-color: white;
+}
+
+.home .style::before{
+  position: absolute;
+  content: '';
+  right: 220px;
+  top: 10px;
+  height: 4px;
+  width: 20%;
+  background-color: white;
+}
+/* Home */
+
+/* About */
+.about{
+  background-color: #1ABC9C;
+  height: 98vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.about .style{
+  position: relative;
+}
+
+.about .style::after{
+  position: absolute;
+  content: '';
+  right: 40%;
+  top: 10px;
+  height: 4px;
+  width: 7%;
+  background-color: white;
+}
+
+.about .style::before{
+  position: absolute;
+  content: '';
+  left: 40%;
+  top: 10px;
+  height: 4px;
+  width: 7%;
+  background-color: white;
+}
+/* About */
+
+/* Portfolio */
+.portfolio{
+  color: #2C3E50;
+  text-align: center;
+}
+
+.portfolio h2{
+  margin-top: 100px;
+}
+
+.portfolio .style{
+  position: relative;
+}
+
+.portfolio i{
+  color: #2C3E50;
+}
+
+.portfolio .style::after{
+  position: absolute;
+  content: '';
+  right: 53%;
+  top: 10px;
+  height: 4px;
+  width: 5%;
+  background-color: #2C3E50;
+}
+
+.portfolio .style::before{
+  position: absolute;
+  content: '';
+  left: 53%;
+  top: 10px;
+  height: 4px;
+  width: 5%;
+  background-color: #2C3E50;
+}
+
+.portfolio img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.portfolio .image{
+  position: relative;
+  cursor: pointer;
+}
+
+.layer{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 100px;
+  background-color: #1ABC9C;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.modal-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.portfolio .image:hover .layer{
+  opacity: 0.9;
+}
+
+/* Portfolio */
+
+/* Contact */
+.contact{
+  color: #2C3E50;
+  text-align: center;
+}
+
+.contact h2{
+  margin-top: 100px;
+}
+
+.contact .style{
+  position: relative;
+}
+
+.contact i{
+  color: #2C3E50;
+}
+
+.contact .style::after{
+  position: absolute;
+  content: '';
+  right: 53%;
+  top: 10px;
+  height: 4px;
+  width: 4%;
+  background-color: #2C3E50;
+}
+
+.contact .style::before{
+  position: absolute;
+  content: '';
+  left: 53%;
+  top: 10px;
+  height: 4px;
+  width: 4%;
+  background-color: #2C3E50;
+}
+
+button{
+  background-color: #1ABC9C;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  width: 140px;
+  height: 40px;
+}
+
+input{
+  box-shadow: none !important;
+}
+/* Contact */
+
+
+
+/* Footer */
+.footer{
+  background-color: #2C3E50;
+  color: white;
+  text-align: center;
+}
+
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px white;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.icon:hover{
+  background-color: #1ABC9C;
+}
+
+.ground{
+  background-color: #1A252F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Footer */
